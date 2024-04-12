@@ -1,0 +1,23 @@
+{
+    "location": [
+      {
+        "idCategory": "1",
+        "strCategory": "K1 KlubHouse",
+        "strCategoryThumb": "https://www.instagram.com/k1klubhouse/?hl=en",
+        "strCategoryDescription": "A clubhouse in the heart of Westlands"
+      },
+      {
+        "idCategory": "2",
+        "strCategory": "Nairobi",
+        "strCategoryThumb": "https://www.instagram.com/kenyanationalarchives/",
+        "strCategoryDescription": "An archive location in the heart of Nairobi Central District"
+      },
+      {
+        "idCategory": "3",
+        "strCategory": "Ngong' Hills",
+        "strCategoryThumb": "https://www.themealdb.com/images/category/dessert.png",
+        "strCategoryDescription": "Monumental hills in Ngong with windmills"
+      },
+      
+    ]
+}
