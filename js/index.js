@@ -40,13 +40,28 @@ function renderLocation(location) {
   parentDiv.appendChild(image);
   const cardBody = document.createElement('div');
   cardBody.classList.add('card-body');
+
   //location name
   const name = document.createElement('h5')
-  name.className.add('card-title');
+  name.className = ('card-title');
   name.innerText = location.Name;
 
-  cardBody.append(name);
+  //location description
+  const description= document.createElement('p');
+  description.className = ('card-text');
+  description.innerText = location.Description;
+
+  //button
+  const button = document.createElement('button');
+  button.classList.add('btn','btn-primary');
+  button.innerText = 'Book With This Location';
+
+  //append description to cardbody
+
+  cardBody.append(name, description, button);
+
   //append cardbody to parent div
+  parentDiv.appendChild(cardBody);
 
   //append each card to the location container
   locationsContainer.appendChild(parentDiv);
