@@ -6,12 +6,12 @@
 }
 
 body {
-    background-image:url(/assets/placeholder2Image.png.jpg);
-     background-repeat: no-repeat;
+    background-image: url(/assets/placeholder2Image.png.jpg);
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 1700px;
+    background-size: 1700px;
     margin-top: auto;
- }
+}
 
 .header {
     position: fixed;
@@ -49,10 +49,11 @@ body {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    margin : 0 0.5rem;
-    padding-bottom: 0.15px;;
+    margin: 0 0.5rem;
+    padding-bottom: 0.15px;
+    ;
     transition: .3s;
-    
+
 }
 
 .navbar a:hover,
@@ -118,6 +119,7 @@ body {
     font-weight: 600;
     letter-spacing: 1px;
 }
+
 .Portfolio {
     background: #081b29;
     background-size: cover;
@@ -134,10 +136,12 @@ body {
     color: #00abf0;
     text-align: center;
 }
-.d-block-w-100{
+
+.d-block-w-100 {
     height: auto;
     max-width: fit-content;
 }
+
 .The-Process {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background: #081b29;
@@ -152,14 +156,13 @@ body {
     font-size: 50px;
     font-weight: 700;
     line-height: 1.2;
-    color: #00abf
-    text-align: center;
+    color: #00abf text-align: center;
     font-style: normal;
 }
 
 .The-Process h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+
     font-size: 30px;
     font-weight: medium;
     line-height: 1.63;
@@ -176,7 +179,7 @@ body {
     line-height: 1.5;
     color: #ededed;
     margin: 20px 0 40px;
-    
+
 }
 
 .Location {
@@ -188,6 +191,7 @@ body {
     align-items: normal;
     padding: 0 10%;
 }
+
 .Location p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
@@ -196,6 +200,7 @@ body {
     color: black;
     margin: 20px 0 40px;
 }
+
 .location h4 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
@@ -205,6 +210,7 @@ body {
     margin: 20px 0 40px;
     text-align: center;
 }
+
 .Location h1 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
@@ -215,7 +221,8 @@ body {
     text-align: center;
     font-style: normal;
 }
-.card-img-top{
+
+.card-img-top {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -230,6 +237,7 @@ body {
     align-items: normal;
     padding: 0 10%;
 }
+
 .Contact-content h1 {
     font-family: 'Quincy CF';
     color: #ededed;
@@ -271,5 +279,5 @@ button {
     padding: 10px 18px;
     text-align: center;
     display: flex;
-    margin:0 auto;
+    margin: 0 auto;
 }

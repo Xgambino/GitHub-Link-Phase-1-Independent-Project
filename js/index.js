@@ -48,7 +48,7 @@ function renderLocation(location) {
   const image = document.createElement("img");
   image.classList.add("card-img-top", "mt-2");
   image.height = 200;
-  image.src = location.Thumb;
+  image.src = location.Photo;
   image.alt = location.Name;
   //append the image to the div
   parentDiv.appendChild(image);
@@ -65,13 +65,13 @@ function renderLocation(location) {
   description.className = "card-text";
   description.innerText = location.Description;
 
-  //button
-  const button = document.createElement("button");
-  button.classList.add("btn", "btn-primary");
-  button.innerText = "Book With This Location";
-  button.addEventListener('click', () => {
-    alert(`Location with id ${location.id} clicked`);
-  })
+   //button
+   const button = document.createElement("button");
+   button.classList.add("btn", "btn-primary");
+   button.innerText = "Book With This Location";
+   button.addEventListener('click', () => {
+     alert(`Here is the pin to your location: ${location.Address}`);
+   })
 
   //append description to cardbody
 

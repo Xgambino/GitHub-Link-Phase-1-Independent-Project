@@ -3,19 +3,22 @@
       {
         "id": "1",
         "Name": "K1 KlubHouse",
-        "Thumb": "https://pbs.twimg.com/media/FsCxutKWAAMDGJX.jpg",
+        "Photo": "https://pbs.twimg.com/media/FsCxutKWAAMDGJX.jpg",
+        "Address": "-1.2683433835360256, 36.811807524924944",
         "Description": "A clubhouse in the heart of Westlands"
       },
       {
         "id": "2",
         "Name": "Kenya National Archives",
-        "Thumb": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/af/11.jpg",
+        "Photo": "https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/27/af/11.jpg",
+        "Address": "-1.2850805615678256, 36.8261201148425",
         "Description": "An archive location in the heart of Nairobi Central District"
       },
       {
         "id": "3",
         "Name": "Ngong' Hills",
-        "Thumb": "https://www.kids365.org/wp-content/uploads/2021/04/Ngong-Hills-kiting-5-1024x576.jpg",
+        "Photo": "https://www.kids365.org/wp-content/uploads/2021/04/Ngong-Hills-kiting-5-1024x576.jpg",
+        "Address": "-1.4003428565601233, 36.63839801683589",
         "Description": "Monumental hills in Ngong with windmills"
       }
       
