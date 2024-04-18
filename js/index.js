@@ -1,4 +1,4 @@
-const { error } = require("server/router");
+// const { error } = require("server/router");
 
 const BASE_URL = "http://localhost:3000/location";
 
@@ -75,14 +75,14 @@ function renderLocation(location) {
     alert(`Here is the pin to your location: ${location.Address}`);
   })
 
-  //add location
-  const addLocationForm = document.querySelector("#add-location-form");
-  addLocationForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-    const formData = new FormData(addLocationForm);
-    const data = Object.fromEntries(formData);
-    addLocation(data);
-  })
+  // //add location
+  // const addLocationForm = document.querySelector("#add-location-form");
+  // addLocationForm.addEventListener("submit", (event) => {
+  //   event.preventDefault();
+  //   const formData = new FormData(addLocationForm);
+  //   const data = Object.fromEntries(formData);
+  //   addLocation(data);
+  // })
 
   //append description to cardbody
 
@@ -94,19 +94,19 @@ function renderLocation(location) {
   //append each card to the location container
   locationsContainer.appendChild(parentDiv);
 
-  function addLocation(location) {
-    fetch(`${BASE_URL}`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      }
-    body: JSON.stringify({ ...location, : 0 })
-        .then((response) => response.json())
-        .then((location) => {
-          console.log(location);
-          renderLocation(location);
-        });
-    .catch((error) => console.log(error));
+  // function addLocation(location) {
+  //   fetch(`${BASE_URL}`, {
+  //     method: "POST",
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     }
+  //   body: JSON.stringify({ ...location, : 0 })
+  //       .then((response) => response.json())
+  //       .then((location) => {
+  //         console.log(location);
+  //         renderLocation(location);
+  //       });
+  //   .catch((error) => console.log(error));
 
-    })
+  //   })
   }
